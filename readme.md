@@ -4,5 +4,5 @@ This project is dedicated to applying computer vision to deliver a dependable an
 
 #First we need to install the pytorch
 We use condition Windows + Conda + Python + CPU 
-see more in the PyTorch site: https://pytorch.org/get-started/locally/
+see more on the PyTorch site: https://pytorch.org/get-started/locally/
 -conda install pytorch torchvision torchaudio cpuonly -c pytorch
