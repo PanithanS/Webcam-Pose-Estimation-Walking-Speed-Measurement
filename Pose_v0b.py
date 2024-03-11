@@ -2,12 +2,24 @@ from ultralytics import YOLO
 import cv2
 import math 
 import time
+import numpy as np
 
 # start Webcam
 #image_size 1920 × 1080 (FullHD)
 cap = cv2.VideoCapture(0)
-cap.set(3, 1920)
-cap.set(4, 1080)
+
+height = 720 #y
+width = 1280 #x
+cap.set(3, width)
+cap.set(4, height)
+
+center_ax = int(height*0.5)
+print(center_ax)
+center_ay = int(width*0.5) 
+print(center_ay)
+size_a = 20
+
+#e1, e2 = int(height*0.5), int(height*0.5) #end box
 
 model = YOLO('yolo-Weights/yolov8n-pose.pt')  # load a pretrained YOLOv8n pose model
 
@@ -33,6 +45,9 @@ KEYPOINT_EDGE_INDS_TO_COLOR = {
     (14, 16): (255, 255, 0)
 }
 
+def LMouseclick(event, x, y, flags, param):
+    if event == cv2.EVENT_MOUSEMOVE:
+        print('x = %d, y = %d'%(x, y))
 
 ################ main ################
 while True:
@@ -41,7 +56,11 @@ while True:
 
     #Predicted by YOLO
     results = model.predict(img, stream=True, conf = 0.6, verbose=False) #predicted by YOLO
+    
+    cv2.rectangle(img, (center_ay, center_ax), (center_ay+size_a, center_ax+size_a), (0, 0, 255), 3)
 
+    #cv2.line(img, (0,start_line), (width,start_line), color=(255, 255, 255), thickness=1) 
+    #cv2.line(img, (0,stop_line), (width, stop_line), color=(255, 255, 255), thickness=2) 
 
     for result in results:
         boxes = result.boxes
@@ -98,6 +117,7 @@ while True:
 
     #Output display
     cv2.imshow('Webcam', img)
+    cv2.setMouseCallback('Webcam', LMouseclick)
 
     # break this while
     k = cv2.waitKey(33)
