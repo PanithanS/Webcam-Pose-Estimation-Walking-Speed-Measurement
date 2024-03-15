@@ -2,7 +2,6 @@ from ultralytics import YOLO
 import cv2
 import math 
 import time
-import numpy as np
 
 # start Webcam
 #image_size 1920 × 1080 (FullHD)
@@ -45,7 +44,7 @@ KEYPOINT_EDGE_INDS_TO_COLOR = {
     (14, 16): (255, 255, 0)
 }
 
-def LMouseclick(event, x, y, flags, param):
+def mousemove(event, x, y, flags, param):
     if event == cv2.EVENT_MOUSEMOVE:
         print('x = %d, y = %d'%(x, y))
 
@@ -57,7 +56,7 @@ while True:
     #Predicted by YOLO
     results = model.predict(img, stream=True, conf = 0.6, verbose=False) #predicted by YOLO
     
-    cv2.rectangle(img, (center_ay, center_ax), (center_ay+size_a, center_ax+size_a), (0, 0, 255), 3)
+    #cv2.rectangle(img, (center_ay, center_ax), (center_ay+size_a, center_ax+size_a), (0, 0, 255), 3)
 
     #cv2.line(img, (0,start_line), (width,start_line), color=(255, 255, 255), thickness=1) 
     #cv2.line(img, (0,stop_line), (width, stop_line), color=(255, 255, 255), thickness=2) 
@@ -90,7 +89,6 @@ while True:
             except:
                 pass
         
-
         # bounding box display
         for box in boxes:
             
@@ -111,15 +109,15 @@ while True:
             thickness = 1
             cv2.putText(img, str(confidence), org, font, fontScale, color, thickness)
 
-    # Time display
+    # Clock 
     local_time = time.ctime(time.time())
-    cv2.putText(img, str(local_time), (5, 15), font, 0.5, (255, 255, 255), 1)
+    cv2.putText(img, str(local_time), (5, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
 
-    #Output display
+    # Webcam Output 
     cv2.imshow('Webcam', img)
-    cv2.setMouseCallback('Webcam', LMouseclick)
+    cv2.setMouseCallback('Webcam', mousemove)
 
-    # break this while
+    # Break Webcam
     k = cv2.waitKey(33)
     if k==27:  # Esc key to stop
         break
