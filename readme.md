@@ -2,6 +2,11 @@
 This project is dedicated to applying computer vision to deliver a dependable and efficient solution for human pose recognition specifically focusing on measuring the patients' walking speed in the rehabilitation dorm.
 Aim: Low-budget, user-friendly, and easy to distribute.
 
+## Overview
+**Fig.1** The image demonstrates how to detect the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the person's passage from A to B to determine their walking speed.
+
+<img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/fd0bff1e-03b9-478d-bc0d-c6a0f18ee0d9" width="900">
+
 ## The multidisciplinary impact of measuring walking speed
 We certainly focus on measuring walking speed for rehabilitation, which serves as a foundational step with broader implications across various domains. Here's how:
 
@@ -16,11 +21,6 @@ We certainly focus on measuring walking speed for rehabilitation, which serves a
 **Impact Assessment:** Demonstrating the effectiveness of measuring walking speed in rehabilitation can have ripple effects in terms of healthcare policy, resource allocation, and patient care standards. By quantifying the benefits in terms of improved patient outcomes, reduced healthcare costs, and enhanced quality of life, the project can advocate for broader adoption and integration of similar methodologies in healthcare systems worldwide.
 
 Overall, while initially focusing on measuring walking speed for rehabilitation purposes, the project has the potential to lay a solid foundation for advancements and applications in diverse domains, ultimately contributing to improved health, mobility, and well-being across populations.
-
-## Overview
-**Fig.1** The image demonstrates how to detect the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the person's passage from A to B to determine their walking speed.
-<img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/45885927-a822-495b-9735-9077ec6843cf" width="780">
-
 
 ## Demonstration 01: Running 'main.py' with a webcam connected
 **Vid. 1** Below is the demonstration of timing the passage of an individual from the "START" to the "END" point. 
