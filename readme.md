@@ -18,12 +18,12 @@ We certainly focus on measuring walking speed for rehabilitation, which serves a
 Overall, while initially focusing on measuring walking speed for rehabilitation purposes, the project has the potential to lay a solid foundation for advancements and applications in diverse domains, ultimately contributing to improved health, mobility, and well-being across populations.
 
 ## Overview
-**Fig.1** illustrates the concept of detecting the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the passage of the person from A to B to determine their walking speed.
+**Fig.1** The image demonstrates how to detect the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the person's passage from A to B to determine their walking speed.
 <img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/45885927-a822-495b-9735-9077ec6843cf" width="780">
 
 
-## Demonstration 01: Running 'main' with a webcam connected
-**Vid. 1** Below is the demonstration for timing the passage of the person from the "START" to the "END" point. 
+## Demonstration 01: Running 'main.py' with a webcam connected
+**Vid. 1** Below is the demonstration of timing the passage of an individual from the "START" to the "END" point. 
 <video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
 
 ## Requirement
