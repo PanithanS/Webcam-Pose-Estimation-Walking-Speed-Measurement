@@ -23,7 +23,7 @@ We certainly focus on measuring walking speed for rehabilitation, which serves a
 Overall, while initially focusing on measuring walking speed for rehabilitation purposes, the project has the potential to lay a solid foundation for advancements and applications in diverse domains, ultimately contributing to improved health, mobility, and well-being across populations.
 
 ## Demonstration 01: Run "main.py" with a webcam connected
-**Vid. 1** The demonstration of timing the passage of an individual from the "START" to the "END" point.
+**Vid. 1** The demonstration of a person walking from the "START" to the "END" point with a time-stamp. If one knows the exact distance between two points, this can indicate the walking speed.
 - The clock, mouse position, starting time, and ending time were shown, respectively, at the top-left corner of the video from top to bottom.
 - We can draw or redraw the START BOX and END BOX using the mouse, enabling users to easily reposition the camera with a flexible design for any walking path.
 - Once the boxes are defined, their positions will be saved. The next time the program is run, there is no need to redraw them (assuming the camera remains unmoved).
