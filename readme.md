@@ -22,7 +22,7 @@ We certainly focus on measuring walking speed for rehabilitation, which serves a
 
 Overall, while initially focusing on measuring walking speed for rehabilitation purposes, the project has the potential to lay a solid foundation for advancements and applications in diverse domains, ultimately contributing to improved health, mobility, and well-being across populations.
 
-## Demonstration 01: Running 'main.py' with a webcam connected
+## Demonstration 01: Runn'main.py' with a webcam connected
 **Vid. 1** Below is the demonstration of timing the passage of an individual from the "START" to the "END" point. 
 <video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
 
