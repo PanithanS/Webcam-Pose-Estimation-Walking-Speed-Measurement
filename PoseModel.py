@@ -7,7 +7,7 @@ class PoseModel:
 
     def __init__(self, model_weight = 'yolo-Weights/yolov8n-pose.pt'):
         self.model_weight = 'yolo-Weights/yolov8n-pose.pt'
-        self.model = YOLO(self.model_weight)  # load a pretrained YOLOv8n pose model
+        self.model = YOLO(self.model_weight)  # load a pre-trained YOLOv8n pose model
         print(self.model_weight)
         #color for the key-points
         self.KEYPOINT_EDGE_INDS_TO_COLOR = {
