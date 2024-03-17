@@ -42,3 +42,5 @@ pip install ultralytics
 ```Python
 conda install conda-forge::opencv
 ```
+## Inspiration and Acknowledgments
+- The idea cannot be implemented without the pre-trained model of YOLOv8 from: https://github.com/ultralytics.
