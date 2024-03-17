@@ -17,8 +17,8 @@ pip install ultralytics
 
 ## Challenging Context: Low-budget, highly reliable, and user-friendly for low-level users.
 
-Figure 1 illustrates the concept of detecting the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the passage of the person from A to B to determine their walking speed.
-![image](https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/15128a3b-c158-44bf-a05c-0f5338fd00c0)
+**Fig.1** illustrates the concept of detecting the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the passage of the person from A to B to determine their walking speed.
+<img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/45885927-a822-495b-9735-9077ec6843cf" width="960">
 
 ## _
 This project is under development!
