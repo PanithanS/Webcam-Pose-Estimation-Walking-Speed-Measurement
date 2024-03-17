@@ -9,13 +9,13 @@ def is_in_box(box_fix, box_pred, threshold):
     # Mean Squared Error 
     MSE = np.square(np.abs(np.subtract(box_pred,box_fix))).mean()
 
-    #threshold need to be optimize
+    #threshold needs to be optimized
     return MSE, MSE < threshold
 
 def main(vid=None, address=0, height = 720, width = 1280, threshold = 300, rotate=False):
     
     if vid == None:
-        #This version only support single webcam
+        #This version only supports single webcam
         webcam_0 = Webcam(add=address, h = height, w = width) # webcam address 0, height = 720, width = 1280
         yolo = PoseModel(model_weight = 'yolo-Weights/yolov8n-pose.pt')
         
@@ -29,7 +29,7 @@ def main(vid=None, address=0, height = 720, width = 1280, threshold = 300, rotat
             #Images stream from Webcam_0
             _, frame = webcam_0.cap.read()
 
-            #if camera rotated
+            #if the camera rotated
             if rotate:
                 frame=cv2.rotate(frame, cv2.ROTATE_90_CLOCKWISE)
             else:
@@ -40,13 +40,13 @@ def main(vid=None, address=0, height = 720, width = 1280, threshold = 300, rotat
 
             img, pred_boxes = yolo.overlay_results(frame, results)
 
-            # pass the predicted to display
+            # We pass the predicted to display on the webcam
             start_box, end_box = webcam_0.display(img, delay = 10, see_clock= True)
 
             if started == False:
                 for pred_box in pred_boxes:
 
-                    # if any pred box in the start box it will return (_, True)
+                    # If any pred box is in the start box it will return (_, True)
                     mse_start, started = is_in_box(box_fix=start_box, box_pred=pred_box, threshold = threshold)
                     print("mse start: " + str(mse_start) + str(", started: ") + str(started))
                     if started:
@@ -55,7 +55,7 @@ def main(vid=None, address=0, height = 720, width = 1280, threshold = 300, rotat
 
             elif started == True and ended == False: #person already pass start box
                 for pred_box in pred_boxes:
-                    # if any pred box in the start box it will return (_, True)
+                    # If any pred box is in the end box it will return (_, True)
                     mse_end, ended = is_in_box(box_fix=end_box, box_pred=pred_box, threshold = threshold)
                     print("mse start: " + str(mse_start) + str(", started: ") + str(started))
                     print("mse end: " + str(mse_end) + str(", ended: ") + str(ended))
