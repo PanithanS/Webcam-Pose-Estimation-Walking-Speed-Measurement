@@ -15,8 +15,10 @@ Then, we need to install an Ultralytics for the YOLOv8 pose estimation
 pip install ultralytics
 ```
 
-## Context
+## Challenging Context: Low-budget hardware, highly reliable, and distributable for low-level users.
 
-![image](https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/55da16e7-d77a-4333-a2a9-4566496f1268)
+Figure 1 illustrates the concept of detecting the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the passage of the person from A to B to determine their walking speed.
+![image](https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/8882bd8f-5e23-4c02-a8cf-df43c12a1c6c)
 
+## _
 This project is under development!
