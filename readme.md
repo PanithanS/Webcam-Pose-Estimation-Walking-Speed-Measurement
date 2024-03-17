@@ -28,6 +28,7 @@ Overall, while initially focusing on measuring walking speed for rehabilitation 
 - We can draw or redraw the START BOX and END BOX using the mouse, enabling users to easily reposition the camera with a flexible design for any walking path.
 - Once the boxes are defined, their positions will be saved. The next time the program is run, there is no need to redraw them (assuming the camera remains unmoved).
 - The start timing clock will start only when the person is in the START BOX, and the timing clock will not stop until the person is in the END BOX.
+- 
 <video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
 
 ## Requirement
