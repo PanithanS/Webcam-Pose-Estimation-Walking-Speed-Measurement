@@ -24,8 +24,9 @@ Overall, while initially focusing on measuring walking speed for rehabilitation 
 
 ## Demonstration 01: Runn'main.py' with a webcam connected
 **Vid. 1** Below is the demonstration of timing the passage of an individual from the "START" to the "END" point.
-At the top-left corner of the video, the clock, mouse position, starting time, and ending time were shown from top to bottom respectively.
-We can draw or redraw the START BOX and END BOX using the mouse, enabling users to easily reposition the camera and flexibly design for any walking path.
+- At the top-left corner of the video, the clock, mouse position, starting time, and ending time were shown from top to bottom, respectively.
+- We can draw or redraw the START BOX and END BOX using the mouse, enabling users to easily reposition the camera with a flexible design for any walking path.
+- Once the boxes are drawn, the box positions will be saved. The next time the program is run, there is no need to draw them again.
 <video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
 
 
