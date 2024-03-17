@@ -23,13 +23,13 @@ We certainly focus on measuring walking speed for rehabilitation, which serves a
 Overall, while initially focusing on measuring walking speed for rehabilitation purposes, the project has the potential to lay a solid foundation for advancements and applications in diverse domains, ultimately contributing to improved health, mobility, and well-being across populations.
 
 ## Demonstration 01: Runn'main.py' with a webcam connected
-**Vid. 1** Below is the demonstration of timing the passage of an individual from the "START" to the "END" point.
+**Vid. 1** The demonstration of timing the passage of an individual from the "START" to the "END" point.
 - The clock, mouse position, starting time, and ending time were shown, respectively, at the top-left corner of the video from top to bottom.
 - We can draw or redraw the START BOX and END BOX using the mouse, enabling users to easily reposition the camera with a flexible design for any walking path.
 - Once the boxes are defined, their positions will be saved. The next time the program is run, there is no need to redraw them (assuming the camera remains unmoved).
 - The start timing clock will start only when the person is in the START BOX, and the timing clock will not stop until the person is in the END BOX.
-- 
-<video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
+
+https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/a074d7ca-1160-4373-92fd-e60b03d0ef5a
 
 ## Requirement
 1. PyTorch(CPU)
