@@ -1,8 +1,6 @@
 # The real-time human pose estimation and walking speed measurement, powered by YOLOv8 with the webcam
 This project is dedicated to applying computer vision to deliver a dependable and efficient solution for human pose recognition specifically focusing on measuring the patients' walking speed in the rehabilitation dorm.
 Aim: Low-budget, user-friendly, and easy to distribute.
-
-## Overview
 **Fig.1** The image demonstrates how to detect the walking speed of an individual moving from point A to point B. With the known distance between these two points, the methodology involves timing the person's passage from A to B to determine their walking speed.
 
 <img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/fd0bff1e-03b9-478d-bc0d-c6a0f18ee0d9" width="900">
