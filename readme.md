@@ -1,5 +1,5 @@
 # The real-time human pose estimation, powered by YOLOv8 with the webcam 
-This project is dedicated to applying computer vision to deliver a dependable and efficient solution for human pose recognition specifically focusing on measuring the walking speed of cardiac surgery patients in the rehabilitation dorm.
+This project is dedicated to applying computer vision to deliver a dependable and efficient solution for human pose recognition specifically focusing on measuring the patients' walking speed in the rehabilitation dorm.
 Aim: Low-budget, user-friendly, and easy to distribute.
 
 ## The multidisciplinary impact of measuring walking speed
