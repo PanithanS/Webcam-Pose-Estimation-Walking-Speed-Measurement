@@ -8,7 +8,7 @@ This project aims to provide a low-cost solution, user-friendly, and easy to dis
 <img src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/fd0bff1e-03b9-478d-bc0d-c6a0f18ee0d9" width="900">
 
 ## The multidisciplinary impact of measuring walking speed
-We certainly focus on measuring walking speed for rehabilitation, which serves as a foundational step with broader implications across various domains. Here's how:
+We certainly focus on measuring walking speed for rehabilitation, which serves as a foundational step with broader implications across various domains. Here are the perspectives that might be addressed in the future:
 
 **Rehabilitation Innovation:** By initially focusing on measuring walking speed for rehabilitation purposes, the project can pioneer innovative methods and technologies tailored to the specific needs of patients recovering from injuries, surgeries, or medical conditions affecting mobility.
 
