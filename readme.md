@@ -15,4 +15,8 @@ Then, we need to install an Ultralytics for the YOLOv8 pose estimation
 pip install ultralytics
 ```
 
+## Context
+
+![image](https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/55da16e7-d77a-4333-a2a9-4566496f1268)
+
 This project is under development!
