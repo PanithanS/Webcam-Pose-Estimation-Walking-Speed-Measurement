@@ -30,7 +30,6 @@ Overall, while initially focusing on measuring walking speed for rehabilitation 
 - The start timing clock will start only when the person is in the START BOX, and the timing clock will not stop until the person is in the END BOX.
 <video src="https://github.com/PanithanS/Webcam-Pose-Estimation-using-YOLOv8/assets/83627892/12de9def-dbf8-480f-886a-ebe74dbc76d0">
 
-
 ## Requirement
 1. PyTorch(CPU)
 see more on the PyTorch site: https://pytorch.org/get-started/locally/
