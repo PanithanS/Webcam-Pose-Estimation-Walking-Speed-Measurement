@@ -2,7 +2,7 @@
 This project is dedicated to applying computer vision to deliver a dependable and efficient solution for human pose recognition specifically focusing on measuring the walking speed of cardiac surgery patients in the rehabilitation dorm.
 Aim: Low-budget, user-friendly, and easy to distribute.
 
-## Why do we measure walking speed and pose estimation
+## The multidisciplinary impact of measuring walking speed
 We certainly focus on measuring walking speed for rehabilitation, which serves as a foundational step with broader implications across various domains. Here's how:
 
 **Rehabilitation Innovation:** By initially focusing on measuring walking speed for rehabilitation purposes, the project can pioneer innovative methods and technologies tailored to the specific needs of patients recovering from injuries, surgeries, or medical conditions affecting mobility. This can include developing specialized equipment, software algorithms, or wearable devices optimized for rehabilitation settings.
