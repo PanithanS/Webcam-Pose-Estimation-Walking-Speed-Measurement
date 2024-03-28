@@ -71,7 +71,7 @@ def main(vid=None, address=0, height = 720, width = 1280, threshold = 300, rotat
                 
                 time.sleep(20)
                 
-                input("Press Enter to continue...")
+                #input("Press Enter to continue...")
                 # Then we restart the while loop
                 started = False
                 ended = False
